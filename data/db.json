@@ -1,0 +1,619 @@
+{
+  "users": [
+    {
+      "id": "user-demo-1",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "passwordHash": "demo123",
+      "createdAt": "2026-01-15T10:00:00.000Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-mul3ugsq-g5sp",
+      "userId": "user-demo-1",
+      "planType": "home",
+      "title": "Smart Home Budget Plan for ₹40,000",
+      "summary": "Optimized Modern Living Room layout configured to extract maximum comfort and utility while keeping spending strictly inside ₹40,000.",
+      "totalBudget": 40000,
+      "budgetUsed": 40000,
+      "budgetRemaining": 0,
+      "budgetBreakdown": [
+        {
+          "category": "Furniture",
+          "allocatedBudget": 14000,
+          "percentageOfBudget": 35,
+          "items": [
+            {
+              "id": "item-0-0-mul3ugsq",
+              "name": "Modern Seating Setup / Sofa",
+              "category": "Furniture",
+              "estimatedPrice": 9600,
+              "quantity": 1,
+              "totalPrice": 9600,
+              "reason": "Essential core furniture anchoring the Living Room.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Modern%20Seating%20Setup%20%2F%20Sofa",
+                "amazon": "https://www.amazon.in/s?k=Modern%20Seating%20Setup%20%2F%20Sofa",
+                "flipkart": "https://www.flipkart.com/search?q=Modern%20Seating%20Setup%20%2F%20Sofa"
+              }
+            },
+            {
+              "id": "item-0-1-mul3ugsq",
+              "name": "Coffee / Utility Accent Table",
+              "category": "Furniture",
+              "estimatedPrice": 4400,
+              "quantity": 1,
+              "totalPrice": 4400,
+              "reason": "Functional surface with storage for daily living.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Coffee%20%2F%20Utility%20Accent%20Table",
+                "amazon": "https://www.amazon.in/s?k=Coffee%20%2F%20Utility%20Accent%20Table",
+                "flipkart": "https://www.flipkart.com/search?q=Coffee%20%2F%20Utility%20Accent%20Table"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Decor & Essentials",
+          "allocatedBudget": 8000,
+          "percentageOfBudget": 20,
+          "items": [
+            {
+              "id": "item-1-0-mul3ugsq",
+              "name": "Soft Textured Area Rug & Drapes",
+              "category": "Decor & Essentials",
+              "estimatedPrice": 4800,
+              "quantity": 1,
+              "totalPrice": 4800,
+              "reason": "Improves acoustic warmth and gives a cohesive visual finish.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Soft%20Textured%20Area%20Rug%20%26%20Drapes",
+                "amazon": "https://www.amazon.in/s?k=Soft%20Textured%20Area%20Rug%20%26%20Drapes",
+                "flipkart": "https://www.flipkart.com/search?q=Soft%20Textured%20Area%20Rug%20%26%20Drapes"
+              }
+            },
+            {
+              "id": "item-1-1-mul3ugsq",
+              "name": "Framed Wall Art & Planters Set",
+              "category": "Decor & Essentials",
+              "estimatedPrice": 3200,
+              "quantity": 1,
+              "totalPrice": 3200,
+              "reason": "Personalizes the space without heavy recurring costs.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Framed%20Wall%20Art%20%26%20Planters%20Set",
+                "amazon": "https://www.amazon.in/s?k=Framed%20Wall%20Art%20%26%20Planters%20Set",
+                "flipkart": "https://www.flipkart.com/search?q=Framed%20Wall%20Art%20%26%20Planters%20Set"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Dining & Storage",
+          "allocatedBudget": 7200,
+          "percentageOfBudget": 18,
+          "items": [
+            {
+              "id": "item-2-0-mul3ugsq",
+              "name": "Modular Compact Dining / Shelf Unit",
+              "category": "Dining & Storage",
+              "estimatedPrice": 7200,
+              "quantity": 1,
+              "totalPrice": 7200,
+              "reason": "Optimized multipurpose unit ensuring clutter-free spaces.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Modular%20Compact%20Dining%20%2F%20Shelf%20Unit",
+                "amazon": "https://www.amazon.in/s?k=Modular%20Compact%20Dining%20%2F%20Shelf%20Unit",
+                "flipkart": "https://www.flipkart.com/search?q=Modular%20Compact%20Dining%20%2F%20Shelf%20Unit"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Lighting",
+          "allocatedBudget": 6000,
+          "percentageOfBudget": 15,
+          "items": [
+            {
+              "id": "item-3-0-mul3ugsq",
+              "name": "Warm Ambience Ceiling / Task Lighting",
+              "category": "Lighting",
+              "estimatedPrice": 1800,
+              "quantity": 2,
+              "totalPrice": 3600,
+              "reason": "High-efficiency LED fixtures providing balanced glare-free light.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Warm%20Ambience%20Ceiling%20%2F%20Task%20Lighting",
+                "amazon": "https://www.amazon.in/s?k=Warm%20Ambience%20Ceiling%20%2F%20Task%20Lighting",
+                "flipkart": "https://www.flipkart.com/search?q=Warm%20Ambience%20Ceiling%20%2F%20Task%20Lighting"
+              }
+            },
+            {
+              "id": "item-3-1-mul3ugsq",
+              "name": "Corner Reading Accent Lamp",
+              "category": "Lighting",
+              "estimatedPrice": 2400,
+              "quantity": 1,
+              "totalPrice": 2400,
+              "reason": "Adds depth and warm evening mood lighting.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Corner%20Reading%20Accent%20Lamp",
+                "amazon": "https://www.amazon.in/s?k=Corner%20Reading%20Accent%20Lamp",
+                "flipkart": "https://www.flipkart.com/search?q=Corner%20Reading%20Accent%20Lamp"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Fans & Ventilation",
+          "allocatedBudget": 4800,
+          "percentageOfBudget": 12,
+          "items": [
+            {
+              "id": "item-4-0-mul3ugsq",
+              "name": "High-Airflow BLDC Energy Efficient Fan",
+              "category": "Fans & Ventilation",
+              "estimatedPrice": 4800,
+              "quantity": 1,
+              "totalPrice": 4800,
+              "reason": "Modern motor saving significant power with silent operation.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=High-Airflow%20BLDC%20Energy%20Efficient%20Fan",
+                "amazon": "https://www.amazon.in/s?k=High-Airflow%20BLDC%20Energy%20Efficient%20Fan",
+                "flipkart": "https://www.flipkart.com/search?q=High-Airflow%20BLDC%20Energy%20Efficient%20Fan"
+              }
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Shop during major festival sales for 20-30% extra savings on furniture.",
+        "Check room dimensions twice before ordering to prevent return shipping fees.",
+        "Keep a 5-10% buffer for delivery and assembly charges.",
+        "Invest in neutral furniture bases and add color through easily swappable cushions and throws."
+      ],
+      "requestData": {
+        "planType": "home",
+        "totalBudget": 40000,
+        "room": "Living Room",
+        "stylePreference": "Modern"
+      },
+      "createdAt": "2026-09-28T10:28:50.186Z"
+    },
+    {
+      "id": "plan-demo-home",
+      "userId": "user-demo-1",
+      "planType": "home",
+      "title": "Smart Home Plan for ₹50,000",
+      "summary": "A balanced modern living room plan prioritizing comfortable seating, mood lighting, and sleek wall aesthetics within ₹50,000.",
+      "totalBudget": 50000,
+      "budgetUsed": 46500,
+      "budgetRemaining": 3500,
+      "budgetBreakdown": [
+        {
+          "category": "Furniture",
+          "allocatedBudget": 17500,
+          "percentageOfBudget": 35,
+          "items": [
+            {
+              "id": "hf-1",
+              "name": "3-Seater Minimalist Fabric Sofa",
+              "category": "Furniture",
+              "estimatedPrice": 12000,
+              "quantity": 1,
+              "totalPrice": 12000,
+              "reason": "Primary comfortable centerpiece designed for compact and modern living rooms.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=3%20Seater%20Minimalist%20Fabric%20Sofa",
+                "amazon": "https://www.amazon.in/s?k=3%20Seater%20Minimalist%20Fabric%20Sofa",
+                "flipkart": "https://www.flipkart.com/search?q=3%20Seater%20Minimalist%20Fabric%20Sofa"
+              }
+            },
+            {
+              "id": "hf-2",
+              "name": "Engineered Wood Coffee Table",
+              "category": "Furniture",
+              "estimatedPrice": 5500,
+              "quantity": 1,
+              "totalPrice": 5500,
+              "reason": "Sturdy tea table with bottom magazine shelf fitting right into the budget.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Engineered%20Wood%20Coffee%20Table",
+                "amazon": "https://www.amazon.in/s?k=Engineered%20Wood%20Coffee%20Table",
+                "flipkart": "https://www.flipkart.com/search?q=Engineered%20Wood%20Coffee%20Table"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Lighting",
+          "allocatedBudget": 7500,
+          "percentageOfBudget": 15,
+          "items": [
+            {
+              "id": "hl-1",
+              "name": "LED Warm White Ceiling Spotlights (Pack of 4)",
+              "category": "Lighting",
+              "estimatedPrice": 3200,
+              "quantity": 1,
+              "totalPrice": 3200,
+              "reason": "Provides distributed ambient illumination without heavy power draw.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=LED%20Warm%20White%20Ceiling%20Spotlights",
+                "amazon": "https://www.amazon.in/s?k=LED%20Warm%20White%20Ceiling%20Spotlights",
+                "flipkart": "https://www.flipkart.com/search?q=LED%20Warm%20White%20Ceiling%20Spotlights"
+              }
+            },
+            {
+              "id": "hl-2",
+              "name": "Nordic Tripod Floor Lamp",
+              "category": "Lighting",
+              "estimatedPrice": 3800,
+              "quantity": 1,
+              "totalPrice": 3800,
+              "reason": "Creates cozy accent lighting beside the sofa corner for evening relaxation.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Nordic%20Tripod%20Floor%20Lamp",
+                "amazon": "https://www.amazon.in/s?k=Nordic%20Tripod%20Floor%20Lamp",
+                "flipkart": "https://www.flipkart.com/search?q=Nordic%20Tripod%20Floor%20Lamp"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Fans & Climate",
+          "allocatedBudget": 6000,
+          "percentageOfBudget": 12,
+          "items": [
+            {
+              "id": "hfc-1",
+              "name": "BLDC Energy Saving Smart Ceiling Fan",
+              "category": "Fans & Climate",
+              "estimatedPrice": 5500,
+              "quantity": 1,
+              "totalPrice": 5500,
+              "reason": "Whisper-quiet 28W BLDC motor saves up to 65% on electricity bills.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=BLDC%20Energy%20Saving%20Ceiling%20Fan",
+                "amazon": "https://www.amazon.in/s?k=BLDC%20Energy%20Saving%20Ceiling%20Fan",
+                "flipkart": "https://www.flipkart.com/search?q=BLDC%20Energy%20Saving%20Ceiling%20Fan"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Dining & Utility",
+          "allocatedBudget": 9000,
+          "percentageOfBudget": 18,
+          "items": [
+            {
+              "id": "hdu-1",
+              "name": "Compact 2-Seater Wooden Dining Set",
+              "category": "Dining & Utility",
+              "estimatedPrice": 8500,
+              "quantity": 1,
+              "totalPrice": 8500,
+              "reason": "Space-saving breakfast table perfect for modern apartment layouts.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Compact%202%20Seater%20Wooden%20Dining%20Set",
+                "amazon": "https://www.amazon.in/s?k=Compact%202%20Seater%20Wooden%20Dining%20Set",
+                "flipkart": "https://www.flipkart.com/search?q=Compact%202%20Seater%20Wooden%20Dining%20Set"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Decor & Essentials",
+          "allocatedBudget": 10000,
+          "percentageOfBudget": 20,
+          "items": [
+            {
+              "id": "hde-1",
+              "name": "Large Geometric Area Rug (4x6 ft)",
+              "category": "Decor & Essentials",
+              "estimatedPrice": 4200,
+              "quantity": 1,
+              "totalPrice": 4200,
+              "reason": "Ties the living room seating area together with plush comfort underfoot.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Large%20Geometric%20Area%20Rug%204x6",
+                "amazon": "https://www.amazon.in/s?k=Large%20Geometric%20Area%20Rug%204x6",
+                "flipkart": "https://www.flipkart.com/search?q=Large%20Geometric%20Area%20Rug%204x6"
+              }
+            },
+            {
+              "id": "hde-2",
+              "name": "Blackout Linen Curtains with Rod Set",
+              "category": "Decor & Essentials",
+              "estimatedPrice": 3300,
+              "quantity": 1,
+              "totalPrice": 3300,
+              "reason": "Blocks harsh sunlight while elevating window proportions.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Blackout%20Linen%20Curtains%20with%20Rod",
+                "amazon": "https://www.amazon.in/s?k=Blackout%20Linen%20Curtains%20with%20Rod",
+                "flipkart": "https://www.flipkart.com/search?q=Blackout%20Linen%20Curtains%20with%20Rod"
+              }
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Compare prices on festive or clearance sales before final checkout.",
+        "Always check seller reviews and customer photos for fabric color accuracy.",
+        "Keep ₹3,500 unallocated for delivery charges and wall-mounting hardware.",
+        "Choose modular furniture that can easily be rearranged in your space."
+      ],
+      "requestData": {
+        "totalBudget": 50000,
+        "room": "Living Room",
+        "homeType": "Apartment",
+        "stylePreference": "Modern",
+        "priority": "Balanced",
+        "requiredItems": [
+          "Sofa",
+          "Lighting",
+          "Ceiling Fan",
+          "Curtains"
+        ]
+      },
+      "createdAt": "2026-02-10T14:30:00.000Z"
+    },
+    {
+      "id": "plan-demo-party",
+      "userId": "user-demo-1",
+      "planType": "party",
+      "title": "Celebration Birthday Bash for ₹30,000",
+      "summary": "A curated birthday party for 20 guests emphasizing delicious catering, vibrant photo-ready balloon decor, and top music vibes.",
+      "totalBudget": 30000,
+      "budgetUsed": 27500,
+      "budgetRemaining": 2500,
+      "budgetBreakdown": [
+        {
+          "category": "Food & Drinks",
+          "allocatedBudget": 10500,
+          "percentageOfBudget": 35,
+          "items": [
+            {
+              "id": "pf-1",
+              "name": "Live Appetizers & Snack Platters for 20 Guests",
+              "category": "Food & Drinks",
+              "estimatedPrice": 7000,
+              "quantity": 1,
+              "totalPrice": 7000,
+              "reason": "Finger foods, mini burgers, spring rolls, and mocktail pitchers.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Party%20catering%20snacks%20platter",
+                "amazon": "https://www.amazon.in/s?k=Party%20catering%20supplies",
+                "flipkart": "https://www.flipkart.com/search?q=Party%20snack%20supplies"
+              }
+            },
+            {
+              "id": "pf-2",
+              "name": "Custom 2-Tier Birthday Cake (1.5 kg)",
+              "category": "Food & Drinks",
+              "estimatedPrice": 2500,
+              "quantity": 1,
+              "totalPrice": 2500,
+              "reason": "Fresh bakery customized fondant cake with candles and cake topper.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Customized%20birthday%20cake",
+                "amazon": "https://www.amazon.in/s?k=Birthday%20cake%20toppers",
+                "flipkart": "https://www.flipkart.com/search?q=Birthday%20cake%20accessories"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Venue & Seating",
+          "allocatedBudget": 7500,
+          "percentageOfBudget": 25,
+          "items": [
+            {
+              "id": "pv-1",
+              "name": "Rooftop Community Hall Rental & Extra Folding Chairs",
+              "category": "Venue & Seating",
+              "estimatedPrice": 6500,
+              "quantity": 1,
+              "totalPrice": 6500,
+              "reason": "Intimate private open-air space ensuring great ambience for evening photos.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Party%20venue%20chairs%20rental",
+                "amazon": "https://www.amazon.in/s?k=Party%20folding%20chairs",
+                "flipkart": "https://www.flipkart.com/search?q=Party%20seating%20accessories"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Decorations",
+          "allocatedBudget": 4500,
+          "percentageOfBudget": 15,
+          "items": [
+            {
+              "id": "pd-1",
+              "name": "Metallic Chrome Balloon Arch & LED Fairy Lights Kit",
+              "category": "Decorations",
+              "estimatedPrice": 3800,
+              "quantity": 1,
+              "totalPrice": 3800,
+              "reason": "Instantly creates an Instagrammable photo backdrop with minimal setup time.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Metallic%20Balloon%20Arch%20Kit%20with%20LED%20Lights",
+                "amazon": "https://www.amazon.in/s?k=Metallic%20Balloon%20Arch%20Kit%20with%20LED%20Lights",
+                "flipkart": "https://www.flipkart.com/search?q=Metallic%20Balloon%20Arch%20Kit%20with%20LED%20Lights"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Entertainment",
+          "allocatedBudget": 4500,
+          "percentageOfBudget": 15,
+          "items": [
+            {
+              "id": "pe-1",
+              "name": "High-Wattage Party Speaker Rental & Fun Party Games",
+              "category": "Entertainment",
+              "estimatedPrice": 4200,
+              "quantity": 1,
+              "totalPrice": 4200,
+              "reason": "Booming sound with mic for announcements, karaoke, and interactive party games.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Portable%20Party%20Speaker%20with%20Mic",
+                "amazon": "https://www.amazon.in/s?k=Portable%20Party%20Speaker%20with%20Mic",
+                "flipkart": "https://www.flipkart.com/search?q=Portable%20Party%20Speaker%20with%20Mic"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Contingency & Buffer",
+          "allocatedBudget": 3000,
+          "percentageOfBudget": 10,
+          "items": [
+            {
+              "id": "pc-1",
+              "name": "Reserved Cash Cushion for Ice, Napkins & Extra Food",
+              "category": "Contingency & Buffer",
+              "estimatedPrice": 3500,
+              "quantity": 1,
+              "totalPrice": 3500,
+              "reason": "Crucial reserve for last-minute guest additions and quick grocery runs.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Party%20supplies%20disposable%20plates",
+                "amazon": "https://www.amazon.in/s?k=Party%20paper%20plates%20napkins",
+                "flipkart": "https://www.flipkart.com/search?q=Party%20disposables%20set"
+              }
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Pre-chill drinks the morning of the event to avoid buying emergency ice packs.",
+        "Prepare your music playlist beforehand to eliminate awkward silences.",
+        "Use disposable biodegradable tableware to reduce post-party cleaning costs."
+      ],
+      "requestData": {
+        "totalBudget": 30000,
+        "partyType": "Birthday",
+        "numberOfGuests": 20,
+        "location": "Rooftop",
+        "foodPreference": "Multi-cuisine",
+        "decorationPreference": "Thematic"
+      },
+      "createdAt": "2026-02-28T16:00:00.000Z"
+    },
+    {
+      "id": "plan-demo-jewelry",
+      "userId": "user-demo-1",
+      "planType": "jewelry",
+      "title": "Wedding Festive Jewelry Plan for ₹1,00,000",
+      "summary": "An elegant festival ensemble combining a certified hallmarked Gold Pendant Necklace with matching Chandbali Earrings and luxury velvet travel care.",
+      "totalBudget": 100000,
+      "budgetUsed": 92000,
+      "budgetRemaining": 8000,
+      "budgetBreakdown": [
+        {
+          "category": "Main Piece",
+          "allocatedBudget": 55000,
+          "percentageOfBudget": 55,
+          "items": [
+            {
+              "id": "jm-1",
+              "name": "22KT Hallmarked Intricate Gold Choker Necklace (approx 7.5g)",
+              "category": "Main Piece",
+              "estimatedPrice": 52000,
+              "quantity": 1,
+              "totalPrice": 52000,
+              "reason": "Timeless heirloom craftsmanship certified by BIS hallmark, ideal for bridal wear.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=22KT%20Gold%20Choker%20Necklace%20Hallmarked",
+                "amazon": "https://www.amazon.in/s?k=22k%20gold%20necklace%20jewelry",
+                "flipkart": "https://www.flipkart.com/search?q=22k%20gold%20necklace"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Matching Piece",
+          "allocatedBudget": 25000,
+          "percentageOfBudget": 25,
+          "items": [
+            {
+              "id": "jmp-1",
+              "name": "Matching 22KT Gold Chandbali Earrings with Pearl Drops",
+              "category": "Matching Piece",
+              "estimatedPrice": 24000,
+              "quantity": 1,
+              "totalPrice": 24000,
+              "reason": "Harmonious complement to the neckpiece with lightweight balance for extended wear.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=22KT%20Gold%20Chandbali%20Earrings%20Pearl",
+                "amazon": "https://www.amazon.in/s?k=gold%20chandbali%20earrings",
+                "flipkart": "https://www.flipkart.com/search?q=gold%20chandbali%20earrings"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Care & Packaging",
+          "allocatedBudget": 10000,
+          "percentageOfBudget": 10,
+          "items": [
+            {
+              "id": "jc-1",
+              "name": "Anti-Tarnish Velvet Multi-Tier Jewelry Organizer Box",
+              "category": "Care & Packaging",
+              "estimatedPrice": 4200,
+              "quantity": 1,
+              "totalPrice": 4200,
+              "reason": "Safeguards gold and precious gemstones against scratches and oxidation.",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=Anti%20Tarnish%20Velvet%20Jewelry%20Box",
+                "amazon": "https://www.amazon.in/s?k=velvet%20jewelry%20organizer%20box",
+                "flipkart": "https://www.flipkart.com/search?q=jewelry%20organizer%20box%20velvet"
+              }
+            }
+          ]
+        },
+        {
+          "category": "Buffer & Making Charges",
+          "allocatedBudget": 10000,
+          "percentageOfBudget": 10,
+          "items": [
+            {
+              "id": "jb-1",
+              "name": "Reserved Cushion for Daily Gold Rate Fluctuation & GST",
+              "category": "Buffer & Making Charges",
+              "estimatedPrice": 11800,
+              "quantity": 1,
+              "totalPrice": 11800,
+              "reason": "Accounts for standard 3% GST and variable jeweler making charges (VA).",
+              "shoppingLinks": {
+                "google": "https://www.google.com/search?tbm=shop&q=BIS%20Hallmarked%20gold%20jewelry%20coin",
+                "amazon": "https://www.amazon.in/s?k=gold%20coin%2024k",
+                "flipkart": "https://www.flipkart.com/search?q=gold%20coin%2024k"
+              }
+            }
+          ]
+        }
+      ],
+      "tips": [
+        "Always insist on BIS Hallmark and detailed HUID number on gold purchases.",
+        "Verify making charges breakdown before finalizing with any jeweler.",
+        "Store pearls and gold in separate velvet compartments to prevent micro-abrasions."
+      ],
+      "requestData": {
+        "totalBudget": 100000,
+        "jewelryType": "Set",
+        "occasion": "Wedding",
+        "preferredMetal": "Gold",
+        "style": "Traditional"
+      },
+      "createdAt": "2026-03-05T11:20:00.000Z"
+    }
+  ],
+  "contacts": []
+}
